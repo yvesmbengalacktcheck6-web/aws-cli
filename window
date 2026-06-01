@@ -1,0 +1,13 @@
+ 1. Download the Installer
+ • Go to the official AWS CLI v2 download page:
+ • Or directly download the 64-bit installer:
+ 2. Run the Installer
+ • Double-click the AWSCLIV2.msi file.
+ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
+ https://awscli.amazonaws.com/AWSCLIV2.msi
+ • Follow the prompts in the installation wizard.
+ 3. Verify the Installation
+ Open Command Prompt and type:
+ ➢ aws--version
+ Expected output (version may vary):
+ aws-cli/2.x.x Python/3.x.x Windows/10 exe/x86_64 prompt/off
