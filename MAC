@@ -1,0 +1,10 @@
+ Step 1: Download the AWS CLI Installer
+ For AWS CLI version 2:
+ ➢ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg“
+ Step 2: Install the Package
+ sudo installer -pkg AWSCLIV2.pkg -target /
+ This command installs the AWS CLI globally on your system.
+ Step 3: Verify the Installation
+ ➢ aws--version
+ You should see output like:
+ aws-cli/2.x.x Python/3.x.x Darwin/x86_64 source
