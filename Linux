@@ -1,0 +1,19 @@
+
+ 1. Update the system (optional but recommended) 
+➢ sudo apt update && sudo apt upgrade -y       
+➢ sudo yum update -y                           
+# For Debian/Ubuntu# 
+# For RHEL/CentOS
+ 2. Download the AWS CLI v2 installer
+ ➢ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip“
+ 3. Unzip the installer
+ ➢ unzip awscliv2.zip            
+If unzip isn't installed:
+ ➢ sudo apt install unzip   # Debian/Ubuntu
+ ➢ sudo yum install unzip   # RHEL/CentOS
+ 4. Run the install script
+ ➢ sudo ./aws/install
+ 5. Verify installation
+ ➢ aws–version
+ Expected output:     
+aws-cli/2.x.x Python/3.x.x Linux/x86_64 source
